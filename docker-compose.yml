@@ -1,0 +1,6 @@
+version : "3.3"
+services :
+  web :
+     image : arjunak/notes-app-k8s:latest
+     ports :
+         - "8000:8000"
